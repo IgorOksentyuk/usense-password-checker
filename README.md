@@ -1,27 +1,22 @@
-# UsensePasswords
+# Password Complexity Indicator
+## Overview
+The app categorizes passwords into three levels of strength:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+__Easy:__ Passwords containing only letters, digits, or symbols fall into this category. The sections are displayed in red when the password is easy.
 
-## Development server
+__Medium:__ Passwords that are a combination of letters and symbols, letters and digits, or digits and symbols fall into this category. For medium-strength passwords, the first two sections are colored yellow, while the last section remains gray.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+__Strong:__ Passwords that contain a mix of letters, symbols, and numbers are considered strong. In this case, all three sections turn green.
 
-## Code scaffolding
+The app uses a simple, yet effective color-coding system to convey password strength, helping users understand the security level of their passwords at a glance.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
+To get started with the Password Complexity Indicator, follow these steps:
 
-## Build
+* Clone or download the project from the GitHub repository;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Write in terminal __npm install__ in your project's root directory;
 
-## Running unit tests
+* Launch the application using: __ng serve__.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Open a web browser and navigate to http://localhost:4200/ to use the Password Complexity Indicator.

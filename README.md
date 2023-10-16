@@ -1,7 +1,7 @@
 # Password Complexity Indicator
 ## Overview
 The app categorizes passwords into three levels of strength:
-
+[DEMO](https://igoroksentyuk.github.io/usense-password-checker/)
 __Easy:__ Passwords containing only letters, digits, or symbols fall into this category. The sections are displayed in red when the password is easy.
 
 __Medium:__ Passwords that are a combination of letters and symbols, letters and digits, or digits and symbols fall into this category. For medium-strength passwords, the first two sections are colored yellow, while the last section remains gray.

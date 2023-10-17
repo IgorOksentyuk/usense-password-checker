@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PasswordStrengthComponent } from './password-strength/password-strength.component';
+import { PasswordStrengthInput } from './password-strength-input/password-strength-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PasswordStrengthComponent
+    PasswordStrengthComponent,
+    PasswordStrengthInput,
   ],
   imports: [
     BrowserModule,
